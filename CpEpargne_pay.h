@@ -4,7 +4,7 @@
 #include "Devise.h"
 #include<iostream>
 using namespace std;
-class CpEpargne_pay : public CompteEpargne, public ComptePayant
+class CpEpargne_pay : public CompteEpargne, public ComptePay
 {
 
 public:
